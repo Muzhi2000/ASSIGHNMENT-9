@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1, h2, h3 {
+  color: #c22424;
+}
+
+#product-list, #cart {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.product, .cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #f0baba;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {margin: 0 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #f09d9d;
+}
+
+#search {
+  padding: 8px;
+  margin-bottom: 20px;
+  width: 50%;
+  border: 1px solid #ee8989;
+}
+
+#success-message {
+  color: green;
+  font-weight: bold;
+}
